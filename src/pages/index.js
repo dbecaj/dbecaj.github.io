@@ -6,6 +6,7 @@ import { graphql } from "gatsby";
 import InfoItem from "../components/info-item";
 import { JobDesc } from "../components/job-desc";
 import { SkillItem } from "../components/skill-item";
+import { EduDesc } from "../components/edu-desc";
 
 export default function Home({ data }) {
   console.log(data)
@@ -39,26 +40,39 @@ export default function Home({ data }) {
         {Array.from(Array(3)).map(i => {
           return (
             <JobDesc
-              jobStart="01.2021"
-              jobEnd="02.2021"
+              startDate="01.2021"
+              endDate="02.2021"
               companyName="Google"
               jobPosition="Razvijalec zalednih sistemov"
               languages={['Javascript', 'Python', 'Bash', 'SQL']}
-              description="Sit aliquip occaecat est proident dolore sint anim enim nisi. Dolore dolore non consectetur deserunt aute esse in non consequat enim do. Id est sint Lorem veniam incididunt adipisicing culpa ad aute et. Tempor qui incididunt exercitation dolor pariatur officia cillum elit. Dolore nulla consequat aute dolor dolor incididunt fugiat.
-
-Anim irure ullamco ullamco eiusmod nostrud sunt. Sint ex deserunt ipsum ut dolor Lorem sunt tempor amet do. Dolor culpa nulla dolor nostrud est id dolore nostrud ipsum duis adipisicing eiusmod pariatur. Quis Lorem id eiusmod pariatur do consequat incididunt Lorem magna ad. Quis amet est qui et veniam. Ex sunt occaecat cillum nisi deserunt id amet minim ut do ea minim."
-              style={{ marginBottom: "25px" }}
+              tasks={['Screwing around', 'Screwing around', 'Screwing around', 'Screwing around', 'Screwing around', 'Screwing around', 'Screwing around']}
+              style={{ marginBottom: "40px" }}
             />
           )
         })}
+
         <h3>Znanje</h3>
-        <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "space-evenly" }}>
-          {Array.from(Array(10)).map(v => {
+        <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "space-between" }}>
+          {Array.from(Array(12)).map(v => {
             return (
-              <SkillItem name="Java" level="3" style={{ margin: "0 20px 40px 0" }} />
+              <SkillItem name="Java" level="3" style={{ margin: "0 0px 40px 0" }} />
             )
           })}
         </div>
+
+        <h3>Izobrazba</h3>
+        {Array.from(Array(2)).map(v => {
+          return (
+            <EduDesc
+              startDate="2016"
+              endDate="2020"
+              institutionName="Univerza v Ljubljani, Fakultata za računalništvo in informatiko"
+              programName="visokošolski program"
+              competencies={["Screwing around", "Screwing around", "Screwing around", "Screwing around", "Screwing around"]}
+              style={{ marginBottom: "40px" }}
+            />
+          )
+        })}
       </Layout>
     </div>
   )

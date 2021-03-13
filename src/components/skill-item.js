@@ -10,8 +10,8 @@ export function SkillItem(props) {
       { /* Generate and fill skill level circles */}
       {Array.from(Array(5)).map((v, i) => {
         const circleStyle = {
-          height: 25,
-          width: 25,
+          height: 20,
+          width: 20,
           backgroundColor: i < level ? "#dbf4a7" : "#bbb",
           borderRadius: "50%",
           border: "2px solid black",
