@@ -44,7 +44,7 @@ export default function Home({ data }) {
               endDate="02.2021"
               companyName="Google"
               jobPosition="Razvijalec zalednih sistemov"
-              languages={['Javascript', 'Python', 'Bash', 'SQL']}
+              languages={['JavaScript', 'Python', 'Shell', 'SQL', "Java"]}
               tasks={['Screwing around', 'Screwing around', 'Screwing around', 'Screwing around', 'Screwing around', 'Screwing around', 'Screwing around']}
               style={{ marginBottom: "40px" }}
             />
