@@ -5,6 +5,7 @@ import { getImage, StaticImage } from "gatsby-plugin-image";
 import { graphql } from "gatsby";
 import InfoItem from "../components/info-item";
 import { JobDesc } from "../components/job-desc";
+import { SkillItem } from "../components/skill-item";
 
 export default function Home({ data }) {
   console.log(data)
@@ -34,22 +35,30 @@ export default function Home({ data }) {
 
       { /* Body */}
       <Layout>
-        <h1>Izkušnje</h1>
+        <h3>Izkušnje</h3>
         {Array.from(Array(3)).map(i => {
           return (
             <JobDesc
-              jobStart="01.01.2020"
-              jobEnd="01.02.2020"
+              jobStart="01.2021"
+              jobEnd="02.2021"
               companyName="Google"
               jobPosition="Razvijalec zalednih sistemov"
               languages={['Javascript', 'Python', 'Bash', 'SQL']}
               description="Sit aliquip occaecat est proident dolore sint anim enim nisi. Dolore dolore non consectetur deserunt aute esse in non consequat enim do. Id est sint Lorem veniam incididunt adipisicing culpa ad aute et. Tempor qui incididunt exercitation dolor pariatur officia cillum elit. Dolore nulla consequat aute dolor dolor incididunt fugiat.
 
 Anim irure ullamco ullamco eiusmod nostrud sunt. Sint ex deserunt ipsum ut dolor Lorem sunt tempor amet do. Dolor culpa nulla dolor nostrud est id dolore nostrud ipsum duis adipisicing eiusmod pariatur. Quis Lorem id eiusmod pariatur do consequat incididunt Lorem magna ad. Quis amet est qui et veniam. Ex sunt occaecat cillum nisi deserunt id amet minim ut do ea minim."
-            style={{ marginBottom: "25px" }}
+              style={{ marginBottom: "25px" }}
             />
           )
         })}
+        <h3>Znanje</h3>
+        <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "space-evenly" }}>
+          {Array.from(Array(10)).map(v => {
+            return (
+              <SkillItem name="Java" level="3" style={{ margin: "0 20px 40px 0" }} />
+            )
+          })}
+        </div>
       </Layout>
     </div>
   )
