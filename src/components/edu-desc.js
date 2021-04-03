@@ -2,19 +2,19 @@ import React from "react"
 
 export function EduDesc(props) {
   return (
-    <div style={{ ...props.style }}>
+    <div class={`${props.class}`}>
       { /* General education information */ }
-      <div style={{ display: "flex" }}>
+      <div class="flex">
         <p>{props.institutionName}</p>
-        <div style={{ display: "flex", marginLeft: "auto" }}>
+        <div class="flex ml-auto">
           <p>{props.startDate} - {props.endDate}</p>
         </div>
       </div>
       <p>{props.programName}</p>
 
       { /* Competencies acquired */ }
-      <div style={{ border: "1px solid black", padding: "10px 30px 10px" }}>
-        <ul style={{ listStyleType: "disc" }}>
+      <div class="border border-black px-8 py-4">
+        <ul class="list-disc">
           {props.competencies.map(value => {
             return (
               <li>{value}</li>

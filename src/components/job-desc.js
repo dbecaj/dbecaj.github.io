@@ -5,16 +5,16 @@ const langColors = require("./github-lang-colors.json")
 
 export function JobDesc(props) {
   return (
-    <div style={{ ...props.style }}>
+    <div class={`${props.class}`}>
       { /* General job information */}
-      <div style={{ display: "flex" }}>
+      <div class="flex">
         <p>{props.companyName} - {props.jobPosition}</p>
-        <div style={{ display: "flex", marginLeft: "auto" }}>
+        <div class="flex ml-auto">
           <p>{props.startDate} - {props.endDate}</p>
         </div>
       </div>
 
-      <div style={{ display: "flex", flexFlow: "wrap" }}>
+      <div class="flex flex-wrap">
         {props.languages.map(lang => {
           const circleStyle = {
             height: 10,
@@ -26,7 +26,7 @@ export function JobDesc(props) {
           }
 
           return (
-            <div style={{ display: "flex", alignItems: "center", marginRight: 15 }}>
+            <div class="flex items-center mr-4">
               <span style={circleStyle} />
               <p>{lang}</p>
             </div>
@@ -35,8 +35,8 @@ export function JobDesc(props) {
       </div>
 
       { /* Job description */}
-      <div style={{ border: "1px solid black", padding: "10px 30px 10px" }}>
-        <ul style={{ listStyleType: "disc" }}>
+      <div class="border border-black px-8 py-4">
+        <ul class="list-disc">
           {props.tasks.map(value => {
             return (
               <li>{value}</li>

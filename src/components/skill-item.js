@@ -4,8 +4,8 @@ export function SkillItem(props) {
   const level = parseInt(props.level)
 
   return (
-    <div style={{ display: "flex", ...props.style }}>
-      <p style={{ marginRight: 10 }}>{props.name}</p>
+    <div class={`flex items-center ${props.class}`}>
+      <p class="mr-4">{props.name}</p>
 
       { /* Generate and fill skill level circles */}
       {Array.from(Array(5)).map((v, i) => {

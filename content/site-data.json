@@ -1,0 +1,20 @@
+{
+  "userInfo": [
+    {
+      "icon": ["fas", "user"],
+      "text": "10.08.1998"
+    },
+    {
+      "icon": ["fas", "map-marker-alt"],
+      "text": "Slovenia, Ljubljana"
+    },
+    {
+      "icon": ["fas", "at"],
+      "text": "dominik.becaj@gmail.com"
+    },
+    {
+      "icon": ["fab", "github"],
+      "text": "https://github.com/dbecaj"
+    }
+  ]
+}

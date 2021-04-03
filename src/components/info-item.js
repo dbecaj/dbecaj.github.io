@@ -1,11 +1,19 @@
 import React from "react"
-import { GatsbyImage } from "gatsby-plugin-image";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function InfoItem(props) {
+  // Check if info text is a web link
+  let text = <p>{props.text}</p>
+  if (props.text.match(/^(http|https):\/\//)) {
+    text = <a href={props.text}>{props.text}</a>
+  }
+
   return (
-    <div style={{ display: "flex" }}>
-      <GatsbyImage image={props.image} alt={props.imgAlt} />
-      <p style={{ margin: "0 5px 0 5px" }}>{props.text}</p>
+    <div class={`flex items-center ${props.class}`}>
+      <FontAwesomeIcon icon={props.icon} />
+      <div class="ml-2">
+        {text}
+      </div>
     </div>
   )
 }
