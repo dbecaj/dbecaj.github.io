@@ -1,5 +1,5 @@
 {
-  "userInfo": [
+  "userInfos": [
     {
       "icon": ["fas", "user"],
       "text": "10.08.1998"
@@ -15,6 +15,87 @@
     {
       "icon": ["fab", "github"],
       "text": "https://github.com/dbecaj"
+    }
+  ],
+  
+  "jobs": [
+    {
+      "startDate": "02.2016",
+      "endDate": "03.2016",
+      "companyName": "Kolektor Group d.o.o.",
+      "location": "Slovenia, Ljubljana",
+      "position": "IT Technician",
+      "technologies": ["Windows", "MS Office"],
+      "tasks": ["Setting up computers for industrial automation", "QA for established systems", "Writing documentation"]
+    },
+    {
+      "startDate": "06.2019",
+      "endDate": "09.2019",
+      "companyName": "Proxima d.o.o.",
+      "location": "Slovenia, Ljubljana",
+      "position": "Backend developer",
+      "technologies": ["JavaScript", "NoSQL", "SQL", "AWS", "Linux"],
+      "tasks": ["Creating REST API backend using NestJS for mobile apps", "Setup and use of Amazon Web Services", "Setup and use of MongoDB and PostgreSQL", "Setting up linux server"]
+    },
+    {
+      "startDate": "02.2020",
+      "endDate": "09.2020",
+      "companyName": "SymphonyEYC d.o.o.",
+      "location": "Slovenia, Ljubljana",
+      "position": "Backend developer",
+      "technologies": ["Java", "PL/SQL", "Linux", "Oracle", "JavaScript", "C"],
+      "tasks": ["Developing and maintaining a Spring boot enterprise application", "Writing SQL queries and procedures", "Writing Bash scripts and working with Linux system", "Developing and maintaining a website", "IT Technician for PDA scanners", "Writing CPro programs for database processing"]
+    }
+  ],
+
+  "skills": [
+    {
+      "name": "JavaScript",
+      "level": 5
+    },
+    {
+      "name": "Java",
+      "level": 5
+    },
+    {
+      "name": "C",
+      "level": 4
+    },
+    {
+      "name": "C++",
+      "level": 4
+    },
+    {
+      "name": "Python",
+      "level": 4
+    },
+    {
+      "name": "Linux",
+      "level": 4
+    },
+    {
+      "name": "Git",
+      "level": 4
+    },
+    {
+      "name": "SQL",
+      "level": 3
+    },
+    {
+      "name": "Bash",
+      "level": 4
+    },
+    {
+      "name": "PHP",
+      "level": 3
+    },
+    {
+      "name": "GraphQL",
+      "level": 3
+    },
+    {
+      "name": "AWS",
+      "level": 2
     }
   ]
 }

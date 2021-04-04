@@ -8,14 +8,15 @@ export function JobDesc(props) {
     <div class={`${props.class}`}>
       { /* General job information */}
       <div class="flex">
-        <p>{props.companyName} - {props.jobPosition}</p>
+        <p>{props.position}</p>
         <div class="flex ml-auto">
           <p>{props.startDate} - {props.endDate}</p>
         </div>
       </div>
+      <p>{props.companyName}, ({props.location})</p>
 
       <div class="flex flex-wrap">
-        {props.languages.map(lang => {
+        {props.technologies.map(lang => {
           const circleStyle = {
             height: 10,
             width: 10,

@@ -18,12 +18,12 @@ export default function Home({ data }) {
           <h1 class="text-6xl text-center mb-8">Dominik Bečaj</h1>
 
           <div class="flex flex-wrap justify-center">
-            {SiteData.userInfo.map(info => {
+            {SiteData.userInfos.map(info => {
               return (
               <InfoItem 
                 icon={info.icon} 
                 text={info.text} 
-                class="mr-6"
+                class="mr-6 mt-2"
               />
               )
             })}
@@ -34,26 +34,35 @@ export default function Home({ data }) {
       { /* Body */}
       <Layout>
         <h3>Izkušnje</h3>
-        {Array.from(Array(3)).map(i => {
+        {SiteData.jobs.map(job => {
           return (
             <JobDesc
-              startDate="01.2021"
-              endDate="02.2021"
-              companyName="Google"
-              jobPosition="Razvijalec zalednih sistemov"
-              languages={['JavaScript', 'Python', 'Shell', 'SQL', "Java"]}
-              tasks={['Screwing around', 'Screwing around', 'Screwing around', 'Screwing around', 'Screwing around', 'Screwing around', 'Screwing around']}
-              style={{ marginBottom: "40px" }}
+              startDate={job.startDate}
+              endDate={job.endDate}
+              companyName={job.companyName}
+              location={job.location}
+              position={job.position}
+              technologies={job.technologies}
+              tasks={job.tasks}
               class="mb-14"
             />
           )
         })}
 
+        { /* class="flex flex-wrap justify-between" */ }
         <h3>Znanje</h3>
-        <div class="flex flex-wrap justify-between">
-          {Array.from(Array(12)).map(v => {
+        <div style={{
+          display: "grid",
+          gridTemplateColumns: "repeat(auto-fit, minmax(180px, auto))",
+          rowGap: "2rem",
+          justifyContent: "center"
+        }}>
+          {SiteData.skills.map(skill => {
             return (
-              <SkillItem name="Java" level="3" style={{ margin: "0 0px 40px 0" }} class="mb-14" />
+              <SkillItem 
+                name={skill.name} 
+                level={skill.level} 
+              />
             )
           })}
         </div>
