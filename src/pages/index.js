@@ -33,7 +33,7 @@ export default function Home({ data }) {
 
       { /* Body */}
       <Layout>
-        <h3>Izkušnje</h3>
+        <h3>References</h3>
         {SiteData.jobs.map(job => {
           return (
             <JobDesc
@@ -50,7 +50,7 @@ export default function Home({ data }) {
         })}
 
         { /* class="flex flex-wrap justify-between" */ }
-        <h3>Znanje</h3>
+        <h3>Skills</h3>
         <div style={{
           display: "grid",
           gridTemplateColumns: "repeat(auto-fit, minmax(190px, auto))",
@@ -67,15 +67,17 @@ export default function Home({ data }) {
           })}
         </div>
 
-        <h3>Izobrazba</h3>
-        {Array.from(Array(2)).map(v => {
+        <h3>Education</h3>
+        {SiteData.education.map(education => {
           return (
             <EduDesc
-              startDate="2016"
-              endDate="2020"
-              institutionName="Univerza v Ljubljani, Fakultata za računalništvo in informatiko"
-              programName="visokošolski program"
-              competencies={["Screwing around", "Screwing around", "Screwing around", "Screwing around", "Screwing around"]}
+              startDate={education.startDate}
+              endDate={education.endDate}
+              institutionName={education.institutionName}
+              programName={education.programName}
+              gradeAvg={education.gradeAvg}
+              gradeTotal={education.gradeTotal}
+              competencies={education.competencies}
               class="mb-14"
             />
           )

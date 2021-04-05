@@ -5,7 +5,7 @@ export function SkillLevel(props) {
   // Generate and fill skill level circles
 
   return (
-    <div class={`${props.class}`}>
+    <div class={`whitespace-nowrap ${props.class}`}>
       {Array.from(Array(5)).map((v, i) => {
         const circleStyle = {
           display: "inline-block",
