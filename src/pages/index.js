@@ -53,9 +53,9 @@ export default function Home({ data }) {
         <h3>Znanje</h3>
         <div style={{
           display: "grid",
-          gridTemplateColumns: "repeat(auto-fit, minmax(180px, auto))",
+          gridTemplateColumns: "repeat(auto-fit, minmax(190px, auto))",
           rowGap: "2rem",
-          justifyContent: "center"
+          columnGap: "1rem"
         }}>
           {SiteData.skills.map(skill => {
             return (
