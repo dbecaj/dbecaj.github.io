@@ -1,3 +1,50 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.name {
+  font-family: "Mercury SSm A", "Mercury SSm B", Avenir, sans-serif;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: -0.7px;
+  line-height: 54px;
+  text-transform: none;
+  color: #fff;
+}
+
+.info {
+  font-family: "Whitney SSm A", "Whitney SSm B", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: normal;
+  line-height: 21px;
+  text-transform: none;
+  color: #fff;
+}
+
+.title {
+  font-family: "Mercury SSm A", "Mercury SSm B", Avenir, sans-serif;
+  font-size: 22.4px;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: -0.7px;
+  line-height: 28px;
+  text-transform: none;
+  color: #303030;
+
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.content {
+  font-family: "Whitney SSm A", "Whitney SSm B", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: normal;
+  line-height: 21px;
+  text-transform: none;
+  color: #40404F;
+}

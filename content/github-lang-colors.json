@@ -1766,5 +1766,27 @@
     "Zimpl": {
         "color": null,
         "url": "https://github.com/trending?l=Zimpl"
+    },
+
+    "Windows": {
+        "color": "#45b6fe"
+    },
+    "MS Office": {
+        "color": "#ff781f"
+    },
+    "SQL": {
+        "color": "#296d98"
+    },
+    "NoSQL": {
+        "color": "#9b6dff"
+    },
+    "AWS": {
+        "color": "#ff9900"
+    },
+    "Linux": {
+        "color": "#242424"
+    },
+    "Oracle": {
+        "color": "#f80102"
     }
 }

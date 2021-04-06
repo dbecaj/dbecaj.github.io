@@ -43,7 +43,7 @@
       "companyName": "SymphonyEYC d.o.o.",
       "location": "Slovenia, Ljubljana",
       "position": "Backend developer",
-      "technologies": ["Java", "PL/SQL", "Linux", "Oracle", "JavaScript", "C"],
+      "technologies": ["Java", "PLSQL", "Linux", "Oracle", "JavaScript", "C"],
       "tasks": ["Developing and maintaining a Spring boot enterprise application", "Writing SQL queries and procedures", "Writing Bash scripts and working with Linux system", "Developing and maintaining a website", "IT Technician for PDA scanners", "Writing CPro programs for database processing"]
     }
   ],

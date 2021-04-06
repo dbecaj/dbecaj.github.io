@@ -12,11 +12,11 @@ export function EduDesc(props) {
       </div>
       <div class="flex">
         <p>{props.programName}</p>
-        <p class="ml-auto mt-auto">{props.gradeAvg}/{props.gradeTotal}</p>
+        <p class="ml-auto mt-auto">Marks: {props.gradeAvg}/{props.gradeTotal}</p>
       </div>
 
       { /* Competencies acquired */}
-      <div class="border border-black px-8 py-4">
+      <div class="px-8 py-4">
         <ul class="list-disc">
           {props.competencies.map(value => {
             return (

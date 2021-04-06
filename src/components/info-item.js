@@ -5,7 +5,11 @@ export default function InfoItem(props) {
   // Check if info text is a web link
   let text = <p>{props.text}</p>
   if (props.text.match(/^(http|https):\/\//)) {
-    text = <a href={props.text}>{props.text}</a>
+    text = <a class="underline" href={props.text}>{props.text}</a>
+  }
+  // Check if info text is an email (very basic check)
+  if (props.text.match(/^\S+@\S+$/)) {
+    text = <a href={`mailto:${props.text}`}>{props.text}</a>
   }
 
   return (

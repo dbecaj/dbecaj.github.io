@@ -15,7 +15,7 @@ export default function Home({ data }) {
       { /* Header */}
       <div class="flex justify-center items-center w-full h-72 bg-blue-400">
         <div>
-          <h1 class="text-6xl text-center mb-8">Dominik Bečaj</h1>
+          <h1 class="name text-center mb-8">Dominik Bečaj</h1>
 
           <div class="flex flex-wrap justify-center">
             {SiteData.userInfos.map(info => {
@@ -23,7 +23,7 @@ export default function Home({ data }) {
               <InfoItem 
                 icon={info.icon} 
                 text={info.text} 
-                class="mr-6 mt-2"
+                class="info mr-6 mt-2"
               />
               )
             })}
@@ -33,7 +33,7 @@ export default function Home({ data }) {
 
       { /* Body */}
       <Layout>
-        <h3>References</h3>
+        <h3 class="title">References</h3>
         {SiteData.jobs.map(job => {
           return (
             <JobDesc
@@ -44,13 +44,13 @@ export default function Home({ data }) {
               position={job.position}
               technologies={job.technologies}
               tasks={job.tasks}
-              class="mb-14"
+              class="mb-8 shadow-md p-4 border rounded-md"
             />
           )
         })}
 
         { /* class="flex flex-wrap justify-between" */ }
-        <h3>Skills</h3>
+        <h3 class="title">Skills</h3>
         <div style={{
           display: "grid",
           gridTemplateColumns: "repeat(auto-fit, minmax(190px, auto))",
@@ -67,7 +67,7 @@ export default function Home({ data }) {
           })}
         </div>
 
-        <h3>Education</h3>
+        <h3 class="title">Education</h3>
         {SiteData.education.map(education => {
           return (
             <EduDesc
@@ -78,7 +78,7 @@ export default function Home({ data }) {
               gradeAvg={education.gradeAvg}
               gradeTotal={education.gradeTotal}
               competencies={education.competencies}
-              class="mb-14"
+              class="mb-8 shadow-md p-4 border rounded-md"
             />
           )
         })}
