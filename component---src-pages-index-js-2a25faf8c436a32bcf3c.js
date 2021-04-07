@@ -1,0 +1,2 @@
+(self.webpackChunkgatsby_starter_hello_world=self.webpackChunkgatsby_starter_hello_world||[]).push([[678],{1325:function(e,t,r){"use strict";r.r(t),r.d(t,{default:function(){return l}});var n=r(7294);function a(e){var t=e.children;return n.createElement("div",null,t)}function l(){return n.createElement(a,null,n.createElement("div",{className:"infoPanel"},n.createElement("div",{class:"personalContainer"},n.createElement("img",{src:"../static/portrait.jpg",alt:"portrait of author"}))))}}}]);
+//# sourceMappingURL=component---src-pages-index-js-2a25faf8c436a32bcf3c.js.map
