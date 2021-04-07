@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect } from "react"
 import Layout from "../components/layout"
 import { graphql } from "gatsby";
 import InfoItem from "../components/info-item";
@@ -10,6 +10,10 @@ import SiteData from "../../content/site-data.json"
 import { SectionHeading } from "../components/section-heading";
 
 export default function Home({ data }) {
+
+  useEffect(() => {
+    document.title = "Dominik Bečaj";   
+  }, []);
 
   return (
     <div>

@@ -116,7 +116,7 @@
       "programName": "Undergraduate Computer Science Degree",
       "gradeAvg": "9",
       "gradeTotal": "10",
-      "competencies": ["Programming in C, Assembly, Python, Java, JavaScript", "Data mining", "Database design and concepts", "Computer vision", "Artificial intelligence", "Basics in robotics(ROS)", "Developing web applications", "Computer network management", "Multithreaded programming", "Microcontroller programming"]
+      "competencies": ["Programming in C, Assembly, Python, Java, JavaScript", "Data mining", "Database design and concepts", "Computer vision", "Artificial intelligence", "Basics in robotics (ROS)", "Developing web applications", "Computer network management", "Multithreaded programming", "Microcontroller programming"]
     },
     {
       "startDate": "2018",
