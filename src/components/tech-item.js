@@ -13,7 +13,7 @@ export function TechItem(props) {
   }
 
   return (
-    <div class="flex items-center border rounded-lg shadow-sm px-2 border-gray-300 mr-2.5">
+    <div class="flex items-center border rounded-lg px-2 border-gray-300 mr-2.5">
       <span style={circleStyle} />
       <p>{props.lang}</p>
     </div>

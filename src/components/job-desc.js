@@ -1,4 +1,5 @@
 import React from "react"
+import { DateItem } from "./date-item";
 import { TechItem } from "./tech-item"
 
 export function JobDesc(props) {
@@ -6,9 +7,13 @@ export function JobDesc(props) {
     <div class={`${props.class}`}>
       { /* General job information */}
       <div class="flex">
-        <h3 class="font-bold text-lg">{props.position}</h3>
+        <h3 class="font-bold text-base">{props.position}</h3>
         <div class="flex ml-auto">
-          <p class="text-gray-500">{props.startDate} - {props.endDate}</p>
+          <DateItem 
+            startDate={props.startDate} 
+            endDate={props.endDate} 
+            class="text-gray-500 w-36"
+          />
         </div>
       </div>
       <p>{props.companyName}, ({props.location})</p>

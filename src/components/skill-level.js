@@ -11,9 +11,8 @@ export function SkillLevel(props) {
           display: "inline-block",
           height: 16,
           width: 16,
-          backgroundColor: i < level ? "#dbf4a7" : "#bbb",
+          backgroundColor: i < level ? "#60a5fa" : "#bbb",
           borderRadius: "50%",
-          border: "2px solid black",
           marginRight: 5
         }
 

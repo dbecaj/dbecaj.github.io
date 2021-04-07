@@ -7,13 +7,14 @@ import { SkillItem } from "../components/skill-item";
 import { EduDesc } from "../components/edu-desc";
 
 import SiteData from "../../content/site-data.json"
+import { SectionHeading } from "../components/section-heading";
 
 export default function Home({ data }) {
 
   return (
     <div>
       { /* Header */}
-      <div class="flex justify-center items-center w-full h-72 bg-blue-400">
+      <div class="flex justify-center items-center w-full h-72 p-8 bg-blue-400">
         <div>
           <h1 class="name text-center mb-8">Dominik Bečaj</h1>
 
@@ -33,7 +34,7 @@ export default function Home({ data }) {
 
       { /* Body */}
       <Layout>
-        <h3 class="title">References</h3>
+        <SectionHeading title="References" icon="briefcase" />
         {SiteData.jobs.map(job => {
           return (
             <JobDesc
@@ -49,13 +50,13 @@ export default function Home({ data }) {
           )
         })}
 
-        { /* class="flex flex-wrap justify-between" */ }
-        <h3 class="title">Skills</h3>
+        <SectionHeading title="Skills" icon="wrench" />
         <div style={{
           display: "grid",
           gridTemplateColumns: "repeat(auto-fit, minmax(190px, auto))",
           rowGap: "2rem",
-          columnGap: "1rem"
+          columnGap: "2rem",
+          justifyContent: "center"
         }}>
           {SiteData.skills.map(skill => {
             return (
@@ -67,7 +68,7 @@ export default function Home({ data }) {
           })}
         </div>
 
-        <h3 class="title">Education</h3>
+        <SectionHeading title="Education" icon="graduation-cap" />
         {SiteData.education.map(education => {
           return (
             <EduDesc
