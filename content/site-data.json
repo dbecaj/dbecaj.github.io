@@ -110,15 +110,6 @@
       "competencies": ["Programming in C++", "Learning QT development environment", "Basics in electrical engineering", "Database design and use", "Basics in computer networking", "Basics in microcontroller design and programming"]
     },
     {
-      "startDate": "2017",
-      "endDate": "2021",
-      "institutionName": "University of Ljubljana",
-      "programName": "Undergraduate Computer Science Degree",
-      "gradeAvg": "9",
-      "gradeTotal": "10",
-      "competencies": ["Programming in C, Assembly, Python, Java, JavaScript", "Data mining", "Database design and concepts", "Computer vision", "Artificial intelligence", "Basics in robotics (ROS)", "Developing web applications", "Computer network management", "Multithreaded programming", "Microcontroller programming"]
-    },
-    {
       "startDate": "2018",
       "endDate": "2018",
       "institutionName": "University College Cork",
@@ -126,6 +117,15 @@
       "gradeAvg": "10",
       "gradeTotal": "10",
       "competencies": ["Programming in C", "Developing web applications", "Network management", "Database design and use", "Distributed systems and microservices"]
+    },
+    {
+      "startDate": "2017",
+      "endDate": "2021",
+      "institutionName": "University of Ljubljana",
+      "programName": "Bachelor's degree in computer science",
+      "gradeAvg": "9",
+      "gradeTotal": "10",
+      "competencies": ["Programming in C, Assembly, Python, Java, JavaScript", "Data mining", "Database design and concepts", "Computer vision", "Artificial intelligence", "Basics in robotics (ROS)", "Developing web applications", "Computer network management", "Multithreaded programming", "Microcontroller programming"]
     }
   ]
 }

@@ -1,4 +1,4 @@
-import React, { useEffect } from "react"
+import React from "react"
 import Layout from "../components/layout"
 import { graphql } from "gatsby";
 import InfoItem from "../components/info-item";
@@ -8,12 +8,14 @@ import { EduDesc } from "../components/edu-desc";
 
 import SiteData from "../../content/site-data.json"
 import { SectionHeading } from "../components/section-heading";
+import { Helmet } from "react-helmet";
 
 export default function Home({ data }) {
 
-  useEffect(() => {
-    document.title = "Dominik Bečaj";   
-  }, []);
+  <Helmet>
+    <title>Dominik Bečaj</title>
+    <meta name="description" content="A resume site for Dominik Bečaj, containing contact information and all professional experiences which may be of interest to a future employer" />
+  </Helmet>
 
   return (
     <div>
@@ -52,15 +54,15 @@ export default function Home({ data }) {
               class="mb-8 shadow-md p-4 border rounded-md"
             />
           )
-        })}
+        }).reverse()}
 
         <SectionHeading title="Skills" icon="wrench" />
         <div style={{
           display: "grid",
           gridTemplateColumns: "repeat(auto-fit, minmax(190px, auto))",
           rowGap: "2rem",
-          columnGap: "2rem",
-          justifyContent: "center"
+          columnGap: "3rem",
+          justifyContent: "space-around"
         }}>
           {SiteData.skills.map(skill => {
             return (
@@ -86,7 +88,7 @@ export default function Home({ data }) {
               class="mb-8 shadow-md p-4 border rounded-md"
             />
           )
-        })}
+        }).reverse()}
       </Layout>
     </div>
   )
