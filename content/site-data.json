@@ -129,5 +129,32 @@
       "gradeTotal": "5",
       "competencies": ["Programming in C++", "Learning QT development environment", "Basics in electrical engineering", "Database design and use", "Basics in computer networking", "Basics in microcontroller design and programming"]
     }
+  ],
+
+  "interests": [
+    {
+      "icon": "robot",
+      "text": "Robotics"
+    },
+    {
+      "icon": "eye",
+      "text": "Computer Vision"
+    },
+    {
+      "icon": "brain",
+      "text": "AI"
+    },
+    {
+      "icon": "pizza-slice",
+      "text": "Cooking"
+    },
+    {
+      "icon": "hiking",
+      "text": "Hiking"
+    },
+    {
+      "icon": "bicycle",
+      "text": "Cycling"
+    }
   ]
 }

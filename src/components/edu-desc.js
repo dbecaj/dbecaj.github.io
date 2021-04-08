@@ -5,7 +5,7 @@ import { DateItem } from "./date-item"
 function Marks(props) {
   return (
     <div class="flex items-center">
-      <FontAwesomeIcon icon="graduation-cap" />
+      <FontAwesomeIcon icon="user-graduate" />
       <p class="ml-1">{props.gradeAvg}/{props.gradeTotal}</p>
     </div>
   );

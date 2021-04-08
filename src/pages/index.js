@@ -8,6 +8,7 @@ import { Helmet } from "react-helmet";
 import { Header } from "../components/header";
 
 import SiteData from "../../content/site-data.json"
+import { InterestItem } from "../components/interest-item";
 
 export default function Home({ data }) {
 
@@ -18,7 +19,7 @@ export default function Home({ data }) {
         <meta name="description" content={SiteData.description} />
       </Helmet>
 
-      <Header 
+      <Header
         name={SiteData.name}
         userInfos={SiteData.userInfos}
         class="bg-blue-400"
@@ -68,6 +69,18 @@ export default function Home({ data }) {
             />
           )
         })}
+
+        <SectionHeading title="Interests" icon="user" />
+        <div class="grid grid-cols-2 sm:grid-cols-3 gap-x-8 gap-y-12 justify-items-center">
+          {SiteData.interests.map(interest => {
+            return (
+              <InterestItem
+                icon={interest.icon}
+                text={interest.text}
+              />
+            )
+          })}
+        </div>
       </Layout>
     </div>
   )
