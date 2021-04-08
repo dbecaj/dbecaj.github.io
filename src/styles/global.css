@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.name {
+.nameTitle {
   font-family: "Mercury SSm A", "Mercury SSm B", Avenir, sans-serif;
   font-size: 60px;
   font-style: normal;
@@ -13,7 +13,7 @@
   color: #fff;
 }
 
-.info {
+.infoItem {
   font-family: "Whitney SSm A", "Whitney SSm B", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-style: normal;
@@ -24,7 +24,7 @@
   color: #fff;
 }
 
-.title {
+.sectionHeading {
   font-family: "Mercury SSm A", "Mercury SSm B", Avenir, sans-serif;
   font-size: 22.4px;
   font-style: normal;
@@ -35,7 +35,7 @@
   color: #303030;
 }
 
-.content {
+.mainContent {
   font-family: "Whitney SSm A", "Whitney SSm B", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-style: normal;

@@ -1,47 +1,32 @@
 import React from "react"
 import Layout from "../components/layout"
-import { graphql } from "gatsby";
-import InfoItem from "../components/info-item";
 import { JobDesc } from "../components/job-desc";
 import { SkillItem } from "../components/skill-item";
 import { EduDesc } from "../components/edu-desc";
-
-import SiteData from "../../content/site-data.json"
 import { SectionHeading } from "../components/section-heading";
 import { Helmet } from "react-helmet";
+import { Header } from "../components/header";
+
+import SiteData from "../../content/site-data.json"
 
 export default function Home({ data }) {
 
   return (
     <div>
       <Helmet>
-        <title>Dominik Bečaj</title>
-        <meta name="description" content="A resume site for Dominik Bečaj, containing contact information and all professional experiences which may be of interest to a future employer" />
+        <title>{SiteData.name}</title>
+        <meta name="description" content={SiteData.description} />
       </Helmet>
 
-      { /* Header */}
-      <div class="flex justify-center items-center w-full h-72 p-8 bg-blue-400">
-        <div>
-          <h1 class="name text-center mb-8">Dominik Bečaj</h1>
+      <Header 
+        name={SiteData.name}
+        userInfos={SiteData.userInfos}
+        class="bg-blue-400"
+      />
 
-          <div class="flex flex-wrap justify-center">
-            {SiteData.userInfos.map(info => {
-              return (
-                <InfoItem
-                  icon={info.icon}
-                  text={info.text}
-                  class="info mr-6 mt-2"
-                />
-              )
-            })}
-          </div>
-        </div>
-      </div>
-
-      { /* Body */}
       <Layout>
         <SectionHeading title="References" icon="briefcase" />
-        {SiteData.jobs.map(job => {
+        {SiteData.references.map(job => {
           return (
             <JobDesc
               startDate={job.startDate}
@@ -54,16 +39,10 @@ export default function Home({ data }) {
               class="mb-8 shadow-md p-4 border rounded-md"
             />
           )
-        }).reverse()}
+        })}
 
         <SectionHeading title="Skills" icon="wrench" />
-        <div style={{
-          display: "grid",
-          gridTemplateColumns: "repeat(auto-fit, minmax(190px, auto))",
-          rowGap: "2rem",
-          columnGap: "3rem",
-          justifyContent: "space-around"
-        }}>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-8 justify-items-center">
           {SiteData.skills.map(skill => {
             return (
               <SkillItem
@@ -88,21 +67,8 @@ export default function Home({ data }) {
               class="mb-8 shadow-md p-4 border rounded-md"
             />
           )
-        }).reverse()}
+        })}
       </Layout>
     </div>
   )
 }
-
-export const query = graphql`
-{
-  age: file(relativePath: {eq: "portrait-placeholder.webp"}) {
-    childImageSharp {
-      gatsbyImageData (
-        width: 20
-        height: 20
-      )
-    }
-  }
-}
-`
