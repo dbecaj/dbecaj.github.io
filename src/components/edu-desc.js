@@ -18,7 +18,7 @@ export function EduDesc(props) {
       { /* General education information */}
       <div class="flex">
         { /* Main information */}
-        <div>
+        <div class="mr-2">
           <h3 class="font-bold text-base">{props.institutionName}</h3>
           <p>{props.programName}</p>
         </div>
