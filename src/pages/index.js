@@ -13,7 +13,7 @@ import { InterestItem } from "../components/interest-item";
 export default function Home({ data }) {
 
   return (
-    <div>
+    <div class="dark:bg-gray-800">
       <Helmet>
         <title>{SiteData.name}</title>
         <meta name="description" content={SiteData.description} />
@@ -22,7 +22,7 @@ export default function Home({ data }) {
       <Header
         name={SiteData.name}
         userInfos={SiteData.userInfos}
-        class="bg-blue-400"
+        class="bg-blue-400 dark:bg-gray-700"
       />
 
       <Layout>
@@ -37,7 +37,7 @@ export default function Home({ data }) {
               position={job.position}
               technologies={job.technologies}
               tasks={job.tasks}
-              class="mb-8 shadow-md p-4 border rounded-md"
+              class="mb-8 shadow-md p-4 border rounded-md dark:bg-gray-700"
             />
           )
         })}
@@ -65,7 +65,7 @@ export default function Home({ data }) {
               gradeAvg={education.gradeAvg}
               gradeTotal={education.gradeTotal}
               competencies={education.competencies}
-              class="mb-8 shadow-md p-4 border rounded-md"
+              class="mb-8 shadow-md p-4 border rounded-md dark:bg-gray-700"
             />
           )
         })}

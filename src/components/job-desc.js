@@ -12,7 +12,7 @@ export function JobDesc(props) {
           <DateItem 
             startDate={props.startDate} 
             endDate={props.endDate} 
-            class="text-gray-500 w-36"
+            class="text-gray-500 w-36 dark:text-gray-400"
           />
         </div>
       </div>

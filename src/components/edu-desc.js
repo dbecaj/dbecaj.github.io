@@ -23,8 +23,8 @@ export function EduDesc(props) {
           <p>{props.programName}</p>
         </div>
 
-        { /*Side information*/}
-        <div class="flex flex-col ml-auto text-gray-500">
+        { /*Side information*/ }
+        <div class="flex flex-col ml-auto text-gray-500 dark:text-gray-400">
           <DateItem
             startDate={props.startDate}
             endDate={props.endDate}
