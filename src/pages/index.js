@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect } from "react"
 import Layout from "../components/layout"
 import { JobDesc } from "../components/job-desc";
 import { SkillItem } from "../components/skill-item";
@@ -17,6 +17,16 @@ export default function Home({ data }) {
       <Helmet>
         <title>{SiteData.name}</title>
         <meta name="description" content={SiteData.description} />
+        { /* Changes website theme to dark mode if browser requests it (we can change it manually with localStorage.theme) */ }
+        <script>
+          {`
+          if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.classList.add('dark')
+          } else {
+            document.documentElement.classList.remove('dark')
+          }
+        `}
+        </script>
       </Helmet>
 
       <Header
