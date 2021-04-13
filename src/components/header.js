@@ -1,7 +1,17 @@
-import React from "react"
+import React, { useEffect } from "react"
 import InfoItem from "./info-item"
 
 export function Header(props) {
+  
+  // Changes website theme to dark mode if browser requests it (we can change it manually with localStorage.theme)
+  useEffect(() => {
+    if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      document.documentElement.classList.add('dark')
+    } else {
+      document.documentElement.classList.remove('dark')
+    }
+  });
+
   return (
     <div class={`flex justify-center items-center w-full h-72 p-8 ${props.class}`}>
       <div>
