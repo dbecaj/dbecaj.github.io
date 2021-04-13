@@ -24,7 +24,7 @@ export function EduDesc(props) {
         </div>
 
         { /*Side information*/ }
-        <div class="flex flex-col ml-auto text-gray-500 dark:text-gray-400">
+        <div class="flex flex-col ml-auto text-gray-400">
           <DateItem
             startDate={props.startDate}
             endDate={props.endDate}

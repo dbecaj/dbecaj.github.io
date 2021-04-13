@@ -10,7 +10,6 @@
   letter-spacing: -0.7px;
   line-height: 54px;
   text-transform: none;
-  color: #fff;
 }
 
 .infoItem {
@@ -21,7 +20,6 @@
   letter-spacing: normal;
   line-height: 21px;
   text-transform: none;
-  color: #fff;
 }
 
 .sectionHeading {
@@ -32,7 +30,6 @@
   letter-spacing: -0.7px;
   line-height: 28px;
   text-transform: none;
-  color: #303030;
 }
 
 .mainContent {
@@ -43,5 +40,4 @@
   letter-spacing: normal;
   line-height: 21px;
   text-transform: none;
-  color: #40404F;
 }
