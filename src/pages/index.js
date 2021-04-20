@@ -9,6 +9,7 @@ import { Header } from "../components/header";
 
 import SiteData from "../../content/site-data.json"
 import { InterestItem } from "../components/interest-item";
+import { SkillDesc } from "../components/skill-desc";
 
 export default function Home({ data }) {
 
@@ -26,60 +27,76 @@ export default function Home({ data }) {
       />
 
       <Layout>
-        <SectionHeading title="References" icon="briefcase" />
-        {SiteData.references.map(job => {
-          return (
-            <JobDesc
-              startDate={job.startDate}
-              endDate={job.endDate}
-              companyName={job.companyName}
-              location={job.location}
-              position={job.position}
-              technologies={job.technologies}
-              tasks={job.tasks}
-              class="mb-8 shadow-md p-4 border rounded-md bg-gray-700"
-            />
-          )
-        })}
-
-        <SectionHeading title="Skills" icon="wrench" />
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-8 justify-items-center">
-          {SiteData.skills.map(skill => {
+        <div>
+          <SectionHeading title="References" icon="briefcase" />
+          {SiteData.references.map(job => {
             return (
-              <SkillItem
-                name={skill.name}
-                level={skill.level}
+              <JobDesc
+                startDate={job.startDate}
+                endDate={job.endDate}
+                companyName={job.companyName}
+                location={job.location}
+                position={job.position}
+                technologies={job.technologies}
+                tasks={job.tasks}
+                class="mb-8 shadow-md p-4 border rounded-md bg-gray-700"
               />
             )
           })}
         </div>
 
-        <SectionHeading title="Education" icon="graduation-cap" />
-        {SiteData.education.map(education => {
-          return (
-            <EduDesc
-              startDate={education.startDate}
-              endDate={education.endDate}
-              institutionName={education.institutionName}
-              programName={education.programName}
-              gradeAvg={education.gradeAvg}
-              gradeTotal={education.gradeTotal}
-              competencies={education.competencies}
-              class="mb-8 shadow-md p-4 border rounded-md bg-gray-700"
-            />
-          )
-        })}
+        {/* <SkillItem
+                  name={skill.name}
+                  level={skill.level}
+                /> */}
 
-        <SectionHeading title="Interests" icon="user" />
-        <div class="grid grid-cols-2 sm:grid-cols-3 gap-x-8 gap-y-12 justify-items-center">
-          {SiteData.interests.map(interest => {
+        <div>
+          <SectionHeading title="Skills" icon="wrench" />
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-10 gap-y-8 justify-items-center">
+            {SiteData.skills.map(skill => {
+              return (
+                <SkillDesc
+                  icon={skill.icon}
+                  techName={skill.name}
+                  experience={skill.experience}
+                  text={skill.text}
+                  class="shadow-md p-4 border rounded-md bg-gray-700"
+                />
+              )
+            })}
+          </div>
+        </div>
+
+        <div>
+          <SectionHeading title="Education" icon="graduation-cap" />
+          {SiteData.education.map(education => {
             return (
-              <InterestItem
-                icon={interest.icon}
-                text={interest.text}
+              <EduDesc
+                startDate={education.startDate}
+                endDate={education.endDate}
+                institutionName={education.institutionName}
+                programName={education.programName}
+                gradeAvg={education.gradeAvg}
+                gradeTotal={education.gradeTotal}
+                competencies={education.competencies}
+                class="mb-8 shadow-md p-4 border rounded-md bg-gray-700"
               />
             )
           })}
+        </div>
+
+        <div>
+          <SectionHeading title="Interests" icon="user" />
+          <div class="grid grid-cols-2 sm:grid-cols-3 gap-x-8 gap-y-12 justify-items-center">
+            {SiteData.interests.map(interest => {
+              return (
+                <InterestItem
+                  icon={interest.icon}
+                  text={interest.text}
+                />
+              )
+            })}
+          </div>
         </div>
       </Layout>
     </div>
