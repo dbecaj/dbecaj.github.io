@@ -4,16 +4,18 @@ import ReactMarkdown from "react-markdown"
 import JavaScript from "../assets/javascript.svg"
 import Java from "../assets/java.svg"
 import Database from "../assets/database.svg"
-import CSS from "../assets/css.svg"
+import C from "../assets/c-programming.svg"
 import Linux from "../assets/linux.svg"
 import Python from "../assets/python.svg"
+import CSS from "../assets/css.svg"
 const icons = {
   js: <JavaScript />,
   java: <Java />,
   database: <Database />,
-  css: <CSS />,
+  c: <C />,
   linux: <Linux />,
-  python: <Python />
+  python: <Python />,
+  css: <CSS />
 }
 
 export function SkillDesc(props) {

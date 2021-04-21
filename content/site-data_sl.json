@@ -117,10 +117,10 @@
         "text": "Poznam jezik Java in njegova ogrodja, kot so [Spring](https://spring.io/) za backend in [Hibernate](https://hibernate.org/) ORM, ter jezik [Kotlin](https://kotlinlang.org/) za izdelavo Android aplikacij."
       },
       {
-        "name": "CSS",
-        "icon": "css",
-        "experience": "2 leti",
-        "text": "Znam uporabljati CSS za oblikovanje spletne vsebine. Da si olajšam delo rad uporabljam [Tailwind CSS](https://tailwindcss.com/) in [Bootstrap](https://getbootstrap.com/)."
+        "name": "C",
+        "icon": "c",
+        "experience": "3 years",
+        "text": "Skozi izobraževanje sem jezik C uporabljal pri različnih projektih. Dobro razumem različne algoritme in podatkovne strukture ter koncepte jezika C, kot so upravljanje pomnilnika, kazalci in predprocesor."
       },
       {
         "name": "Linux",

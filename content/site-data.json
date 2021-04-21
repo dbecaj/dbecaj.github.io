@@ -82,10 +82,10 @@
         "text": "I know the Java language and its frameworks, such as [Spring](https://spring.io/) for backend development with [Hibernate](https://hibernate.org/) ORM and [Kotlin](https://kotlinlang.org/) for developing Android applications."
       },
       {
-        "name": "CSS",
-        "icon": "css",
-        "experience": "2 years",
-        "text": "I can use CSS to design web content. To make my job easier I like to use [Tailwind CSS](https://tailwindcss.com/) and [Bootstrap](https://getbootstrap.com/)."
+        "name": "C",
+        "icon": "c",
+        "experience": "3 years",
+        "text": "I have used C throughout my years in school on various projects. I have a good understanding of various algorithms and data structures as well as C related concepts, such as memory managment, pointers and the preprocessor."
       },
       {
         "name": "Linux",
