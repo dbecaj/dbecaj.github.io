@@ -1,35 +1,44 @@
 import React from "react"
 import Layout from "../components/layout"
 import { JobDesc } from "../components/job-desc";
-import { SkillItem } from "../components/skill-item";
 import { EduDesc } from "../components/edu-desc";
 import { SectionHeading } from "../components/section-heading";
 import { Helmet } from "react-helmet";
 import { Header } from "../components/header";
-
-import SiteData from "../../content/site-data.json"
 import { InterestItem } from "../components/interest-item";
 import { SkillDesc } from "../components/skill-desc";
 
-export default function Home({ data }) {
+// Load language packs
+import SiteDataEN from "../../content/site-data.json"
+import SiteDataSL from "../../content/site-data_sl.json"
+const supportedLanguages = {
+  en: SiteDataEN,
+  sl: SiteDataSL
+}
+
+export default function Home({ pageContext }) {
+  // Page lang is a part of URL and resolved in gatsby-node to variable pageContext.lang
+  const pageLang = pageContext.lang
+  const siteData = supportedLanguages[pageLang] ? supportedLanguages[pageLang] : supportedLanguages['en']
 
   return (
     <div class="bg-gray-800">
       <Helmet>
-        <title>{SiteData.name}</title>
-        <meta name="description" content={SiteData.description} />
+        <title>{siteData.name}</title>
+        <meta name="description" content={siteData.description} />
       </Helmet>
 
       <Header
-        name={SiteData.name}
-        userInfos={SiteData.userInfos}
+        name={siteData.name}
+        userInfos={siteData.userInfos}
+        supportedLanguages={Object.keys(supportedLanguages)}
         class="bg-gray-700"
       />
 
       <Layout>
         <div>
-          <SectionHeading title="References" icon="briefcase" />
-          {SiteData.references.map(job => {
+          <SectionHeading title={siteData.references.title} icon="briefcase" />
+          {siteData.references.items.map(job => {
             return (
               <JobDesc
                 startDate={job.startDate}
@@ -45,15 +54,10 @@ export default function Home({ data }) {
           })}
         </div>
 
-        {/* <SkillItem
-                  name={skill.name}
-                  level={skill.level}
-                /> */}
-
         <div>
-          <SectionHeading title="Skills" icon="wrench" />
+          <SectionHeading title={siteData.skills.title} icon="wrench" />
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-10 gap-y-8 justify-items-center">
-            {SiteData.skills.map(skill => {
+            {siteData.skills.items.map(skill => {
               return (
                 <SkillDesc
                   icon={skill.icon}
@@ -68,8 +72,8 @@ export default function Home({ data }) {
         </div>
 
         <div>
-          <SectionHeading title="Education" icon="graduation-cap" />
-          {SiteData.education.map(education => {
+          <SectionHeading title={siteData.education.title} icon="graduation-cap" />
+          {siteData.education.items.map(education => {
             return (
               <EduDesc
                 startDate={education.startDate}
@@ -86,9 +90,9 @@ export default function Home({ data }) {
         </div>
 
         <div>
-          <SectionHeading title="Interests" icon="user" />
+          <SectionHeading title={siteData.interests.title} icon="user" />
           <div class="grid grid-cols-2 sm:grid-cols-3 gap-x-8 gap-y-12 justify-items-center">
-            {SiteData.interests.map(interest => {
+            {siteData.interests.items.map(interest => {
               return (
                 <InterestItem
                   icon={interest.icon}

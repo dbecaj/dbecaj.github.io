@@ -1,0 +1,224 @@
+{
+  "name": "Dominik Bečaj",
+  "description": "A resume site for Dominik Bečaj, containing contact information and all professional experiences which may be of interest to a future employer",
+  "userInfos": [
+    {
+      "icon": [
+        "fas",
+        "user"
+      ],
+      "text": "10.08.1998"
+    },
+    {
+      "icon": [
+        "fas",
+        "map-marker-alt"
+      ],
+      "text": "Slovenija, Ljubljana"
+    },
+    {
+      "icon": [
+        "fas",
+        "at"
+      ],
+      "text": "dominik.becaj@gmail.com"
+    },
+    {
+      "icon": [
+        "fab",
+        "github"
+      ],
+      "text": "https://github.com/dbecaj"
+    }
+  ],
+  "references": {
+    "title": "Reference",
+    "items": [
+      {
+        "startDate": "02.2020",
+        "endDate": "09.2020",
+        "companyName": "SymphonyEYC d.o.o.",
+        "location": "Slovenija, Ljubljana",
+        "position": "Backend razvijalec",
+        "technologies": [
+          "Java",
+          "PLSQL",
+          "Linux",
+          "Oracle",
+          "JavaScript",
+          "C"
+        ],
+        "tasks": [
+          "Razvijanje in razhroščevanje Spring enterprise aplikacije ",
+          "Pisanje SQL poizvedb in procedur",
+          "Pisanje Shell skript in delo s sistemi Linux",
+          "Razvijanje in razhroščevanje spletne strani",
+          "IT Inženir za PDA skanerje",
+          "Pisanje CPro programov za obdelavo podatkov na podatkovni bazi"
+        ]
+      },
+      {
+        "startDate": "06.2019",
+        "endDate": "09.2019",
+        "companyName": "Proxima d.o.o.",
+        "location": "Slovenija, Ljubljana",
+        "position": "Backend razvijalec",
+        "technologies": [
+          "JavaScript",
+          "NoSQL",
+          "SQL",
+          "AWS",
+          "Linux"
+        ],
+        "tasks": [
+          "Ustvarjanje REST API backend z ogrodjem NestJS za mobilne aplikacije",
+          "Nastavitev in uporaba Amazon Web Services",
+          "Postavitev in uporaba podatkovnih baz MongoDB in PostgreSQL",
+          "Delo z Linux strežniki"
+        ]
+      },
+      {
+        "startDate": "02.2016",
+        "endDate": "03.2016",
+        "companyName": "Kolektor Group d.o.o.",
+        "location": "Slovenija, Ljubljana",
+        "position": "IT Inženir",
+        "technologies": [
+          "Windows",
+          "MS Office"
+        ],
+        "tasks": [
+          "Postavitev in nastavitev računalnikov za industrijsko avtomatizacijo",
+          "QA za obstoječe sistem",
+          "Pisanje dokumentacije"
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "title": "Znanje",
+    "items": [
+      {
+        "name": "JavaScript",
+        "icon": "js",
+        "experience": "3 years",
+        "text": "Dobro poznam jezik JavaScript in njegovo nadgradnjo [TypeScript](https://www.typescriptlang.org/), saj sem ju pogosto uporabljal pri projektih. Od večjih ogrodji sem že delal z [ExpressJS](https://expressjs.com/) ter [NestJS](https://nestjs.com/) za backend, zelo rad pa za frontend uporabljam [React](https://reactjs.org/)."
+      },
+      {
+        "name": "Podatkovne baze",
+        "icon": "database",
+        "experience": "4 years",
+        "text": "Imam teoretsko znanje in izkušnje z ustvarjanjem in uporabo relacijskih podatkovnih baz SQL in ne-relacijskih NoSQL baz. Do sedaj sem uporabljal [PostgreSQL](https://www.postgresql.org/) za SQL ter [MongoDB](https://www.mongodb.com/) in [Firebase](https://firebase.google.com/) pri NoSQL."
+      },
+      {
+        "name": "Java",
+        "icon": "java",
+        "experience": "5 years",
+        "text": "Poznam jezik Java in njegova ogrodja, kot so [Spring](https://spring.io/) za backend in [Hibernate](https://hibernate.org/) ORM, ter jezik [Kotlin](https://kotlinlang.org/) za izdelavo Android aplikacij."
+      },
+      {
+        "name": "CSS",
+        "icon": "css",
+        "experience": "2 years",
+        "text": "Znam uporabljati CSS za oblikovanje spletne vsebine. Da si olajšam delo rad uporabljam [Tailwind CSS](https://tailwindcss.com/) in [Bootstrap](https://getbootstrap.com/)."
+      },
+      {
+        "name": "Linux",
+        "icon": "linux",
+        "experience": "2 years",
+        "text": "Linux uporabljam profesionalno in hobijsko, ker mi je všeč prilagajanje sistema mojim zahtevam. Znam pisati shell skripte, od orodji pa znam uporabljati regexp, sed ter vim."
+      },
+      {
+        "name": "Python",
+        "icon": "python",
+        "experience": "3 years",
+        "text": "Za pisanje krajših skript in podatkovnega rudarjenja rad uporabljam Python. Od njegovih knjižnic uporabljam [NumPy](https://numpy.org/) in [matplotlib](https://matplotlib.org/)."
+      }
+    ]
+  },
+  "education": {
+    "title": "Izobrazba",
+    "items": [
+      {
+        "startDate": "2017",
+        "endDate": "2021",
+        "institutionName": "Fakulteta za računalništvo in informatiko, Ljubljana",
+        "programName": "Računalništvo in informatika",
+        "gradeAvg": "9",
+        "gradeTotal": "10",
+        "competencies": [
+          "Programiranje v jezikih C, Assembly, Python, Java, JavaScript",
+          "Podatkovno rudarjenje",
+          "Oblikovanje podatkovne baze in napredni koncepti",
+          "Računalniški vid",
+          "Umetna inteligenca",
+          "Osnove robotike (ROS)",
+          "Razvijanje spletnih aplikacij",
+          "Upravljanje računalniškega omrežja",
+          "Paralelno programiranje",
+          "Programiranje vgrajenih sistemov"
+        ]
+      },
+      {
+        "startDate": "2018",
+        "endDate": "2018",
+        "institutionName": "University College Cork",
+        "programName": "Undergraduate Computer Science Degree, second year",
+        "gradeAvg": "10",
+        "gradeTotal": "10",
+        "competencies": [
+          "Programiranje v jeziku C",
+          "Razvijanje spletnih aplikacij",
+          "Upravljanje računalniškega omrežja",
+          "Postavitev in uporaba podatkovnih baz",
+          "Porazdeljeni sistemi in mikrostoritve"
+        ]
+      },
+      {
+        "startDate": "2013",
+        "endDate": "2017",
+        "institutionName": "Vegova, Ljubljana",
+        "programName": "Tehnik računalništva",
+        "gradeAvg": "4",
+        "gradeTotal": "5",
+        "competencies": [
+          "Programiranje v jeziku C++",
+          "Znanje QT razvojnega okolja",
+          "Osnove elektrotehnike",
+          "Postavitev in uporaba podatkovnih baz",
+          "Osnova računalniških omrežji",
+          "Osnove programiranja mikrokrmilnikov"
+        ]
+      }
+    ]
+  },
+  "interests": {
+    "title": "Interesi",
+    "items": [
+      {
+        "icon": "robot",
+        "text": "Robotika"
+      },
+      {
+        "icon": "eye",
+        "text": "Računalniški vid"
+      },
+      {
+        "icon": "brain",
+        "text": "Umetna inteligenca"
+      },
+      {
+        "icon": "pizza-slice",
+        "text": "Kuhanje"
+      },
+      {
+        "icon": "hiking",
+        "text": "Pohodništvo"
+      },
+      {
+        "icon": "bicycle",
+        "text": "Kolesarjenje"
+      }
+    ]
+  }
+}

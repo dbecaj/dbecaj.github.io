@@ -6,7 +6,7 @@ export default function Layout({ children }) {
       mainContent 
       mx-auto 
       max-w-2xl 
-      pt-8 pb-24 
+      pt-4 pb-24 
       px-4
       text-gray-300
     ">
