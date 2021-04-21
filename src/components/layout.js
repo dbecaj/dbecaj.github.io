@@ -8,7 +8,7 @@ export default function Layout({ children }) {
       max-w-2xl 
       pt-4 pb-24 
       px-4
-      text-gray-300
+      text-gray-600
     ">
       { children }
     </div>

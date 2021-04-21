@@ -19,7 +19,7 @@ const icons = {
 export function SkillDesc(props) {
   // Add custom style to html elements for markdown to html conversion 
   const components = {
-    a: ({node, ...props}) => <a class="text-red-500 font-bold" {...props} /> 
+    a: ({node, ...props}) => <a class="text-blue-800 font-bold" {...props} /> 
   }
 
   return (
@@ -29,8 +29,8 @@ export function SkillDesc(props) {
           {icons[props.icon]}
         </div>
         <div class="flex flex-col">
-          <h3 class="text-lg">{props.techName}</h3>
-          <p>{props.experience}</p>
+          <h3 class="text-xl">{props.techName}</h3>
+          <p class="text-gray-500">{props.experience}</p>
         </div>
       </div>
 

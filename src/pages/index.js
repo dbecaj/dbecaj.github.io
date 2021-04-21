@@ -22,7 +22,7 @@ export default function Home({ pageContext }) {
   const siteData = supportedLanguages[pageLang] ? supportedLanguages[pageLang] : supportedLanguages['en']
 
   return (
-    <div class="bg-gray-800">
+    <div>
       <Helmet>
         <title>{siteData.name}</title>
         <meta name="description" content={siteData.description} />
@@ -48,7 +48,7 @@ export default function Home({ pageContext }) {
                 position={job.position}
                 technologies={job.technologies}
                 tasks={job.tasks}
-                class="mb-8 shadow-md p-4 border rounded-md bg-gray-700"
+                class="mb-8 shadow-md p-4 border rounded-md"
               />
             )
           })}
@@ -64,7 +64,7 @@ export default function Home({ pageContext }) {
                   techName={skill.name}
                   experience={skill.experience}
                   text={skill.text}
-                  class="shadow-md p-4 border rounded-md bg-gray-700"
+                  class="shadow-md p-4 border rounded-md"
                 />
               )
             })}
@@ -83,7 +83,7 @@ export default function Home({ pageContext }) {
                 gradeAvg={education.gradeAvg}
                 gradeTotal={education.gradeTotal}
                 competencies={education.competencies}
-                class="mb-8 shadow-md p-4 border rounded-md bg-gray-700"
+                class="mb-8 shadow-md p-4 border rounded-md"
               />
             )
           })}
