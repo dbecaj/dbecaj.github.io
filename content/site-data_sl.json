@@ -78,6 +78,23 @@
         ]
       },
       {
+        "startDate": "10.2016",
+        "endDate": "11.2016",
+        "companyName": "nSoft Ltd",
+        "location": "Litva, Vilna",
+        "position": "Razvijalec programske opreme",
+        "technologies": [
+          "PHP",
+          "C++",
+          "HTML"
+        ],
+        "tasks": [
+          "Ustvarjanje spletne aplikacije za nadziranje mikrokrmilnikov",
+          "Programiranje mikrokrmilnikov",
+          "Pisanje dokumentacije"
+        ]
+      },
+      {
         "startDate": "02.2016",
         "endDate": "03.2016",
         "companyName": "Kolektor Group d.o.o.",

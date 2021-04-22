@@ -1,30 +1,36 @@
 {
   "name": "Dominik Bečaj",
   "description": "A resume site for Dominik Bečaj, containing contact information and all professional experiences which may be of interest to a future employer",
-
-
-
   "userInfos": [
     {
-      "icon": ["fas", "user"],
+      "icon": [
+        "fas",
+        "user"
+      ],
       "text": "10.08.1998"
     },
     {
-      "icon": ["fas", "map-marker-alt"],
+      "icon": [
+        "fas",
+        "map-marker-alt"
+      ],
       "text": "Slovenia, Ljubljana"
     },
     {
-      "icon": ["fas", "at"],
+      "icon": [
+        "fas",
+        "at"
+      ],
       "text": "dominik.becaj@gmail.com"
     },
     {
-      "icon": ["fab", "github"],
+      "icon": [
+        "fab",
+        "github"
+      ],
       "text": "https://github.com/dbecaj"
     }
   ],
-  
-
-
   "references": {
     "title": "References",
     "items": [
@@ -34,8 +40,22 @@
         "companyName": "SymphonyEYC d.o.o.",
         "location": "Slovenia, Ljubljana",
         "position": "Backend developer",
-        "technologies": ["Java", "PLSQL", "Linux", "Oracle", "JavaScript", "C"],
-        "tasks": ["Developing and maintaining a Spring enterprise application", "Writing SQL queries and procedures", "Writing Shell scripts and working with Linux system", "Developing and maintaining a website", "IT Technician for PDA scanners", "Writing CPro programs for database processing"]
+        "technologies": [
+          "Java",
+          "PLSQL",
+          "Linux",
+          "Oracle",
+          "JavaScript",
+          "C"
+        ],
+        "tasks": [
+          "Developing and maintaining a Spring enterprise application",
+          "Writing SQL queries and procedures",
+          "Writing Shell scripts and working with Linux system",
+          "Developing and maintaining a website",
+          "IT Technician for PDA scanners",
+          "Writing CPro programs for database processing"
+        ]
       },
       {
         "startDate": "06.2019",
@@ -43,8 +63,36 @@
         "companyName": "Proxima d.o.o.",
         "location": "Slovenia, Ljubljana",
         "position": "Backend developer",
-        "technologies": ["JavaScript", "NoSQL", "SQL", "AWS", "Linux"],
-        "tasks": ["Creating REST API backend using NestJS for mobile apps", "Setup and use of Amazon Web Services", "Setup and use of MongoDB and PostgreSQL", "Setting up Linux server"]
+        "technologies": [
+          "JavaScript",
+          "NoSQL",
+          "SQL",
+          "AWS",
+          "Linux"
+        ],
+        "tasks": [
+          "Creating REST API backend using NestJS for mobile apps",
+          "Setup and use of Amazon Web Services",
+          "Setup and use of MongoDB and PostgreSQL",
+          "Setting up Linux server"
+        ]
+      },
+      {
+        "startDate": "10.2016",
+        "endDate": "11.2016",
+        "companyName": "nSoft Ltd",
+        "location": "Lithuania, Vilnius",
+        "position": "Software developer",
+        "technologies": [
+          "PHP",
+          "C++",
+          "HTML"
+        ],
+        "tasks": [
+          "Creating web application for controlling microcontrollers",
+          "Programming microcontrollers",
+          "Writing documentation"
+        ]
       },
       {
         "startDate": "02.2016",
@@ -52,14 +100,18 @@
         "companyName": "Kolektor Group d.o.o.",
         "location": "Slovenia, Ljubljana",
         "position": "IT Technician",
-        "technologies": ["Windows", "MS Office"],
-        "tasks": ["Setting up computers for industrial automation", "QA for established systems", "Writing documentation"]
+        "technologies": [
+          "Windows",
+          "MS Office"
+        ],
+        "tasks": [
+          "Setting up computers for industrial automation",
+          "QA for established systems",
+          "Writing documentation"
+        ]
       }
-    ] 
+    ]
   },
-
-
-
   "skills": {
     "title": "Skills",
     "items": [
@@ -101,9 +153,6 @@
       }
     ]
   },
-
-
-
   "education": {
     "title": "Education",
     "items": [
@@ -114,7 +163,18 @@
         "programName": "Bachelor's degree in computer science",
         "gradeAvg": "9",
         "gradeTotal": "10",
-        "competencies": ["Programming in C, Assembly, Python, Java, JavaScript", "Data mining", "Database design and concepts", "Computer vision", "Artificial intelligence", "Basics in robotics (ROS)", "Developing web applications", "Computer network management", "Multithreaded programming", "Microcontroller programming"]
+        "competencies": [
+          "Programming in C, Assembly, Python, Java, JavaScript",
+          "Data mining",
+          "Database design and concepts",
+          "Computer vision",
+          "Artificial intelligence",
+          "Basics in robotics (ROS)",
+          "Developing web applications",
+          "Computer network management",
+          "Multithreaded programming",
+          "Microcontroller programming"
+        ]
       },
       {
         "startDate": "2018",
@@ -123,7 +183,13 @@
         "programName": "Undergraduate Computer Science Degree, second year",
         "gradeAvg": "10",
         "gradeTotal": "10",
-        "competencies": ["Programming in C", "Developing web applications", "Network management", "Database design and use", "Distributed systems and microservices"]
+        "competencies": [
+          "Programming in C",
+          "Developing web applications",
+          "Network management",
+          "Database design and use",
+          "Distributed systems and microservices"
+        ]
       },
       {
         "startDate": "2013",
@@ -132,13 +198,17 @@
         "programName": "Computer Engineer",
         "gradeAvg": "4",
         "gradeTotal": "5",
-        "competencies": ["Programming in C++", "Learning QT development environment", "Basics in electrical engineering", "Database design and use", "Basics in computer networking", "Basics in microcontroller design and programming"]
+        "competencies": [
+          "Programming in C++",
+          "Learning QT development environment",
+          "Basics in electrical engineering",
+          "Database design and use",
+          "Basics in computer networking",
+          "Basics in microcontroller design and programming"
+        ]
       }
     ]
   },
-
-
-
   "interests": {
     "title": "Interests",
     "items": [
