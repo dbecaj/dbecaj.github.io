@@ -1,3 +1,4 @@
+import { Link } from "gatsby"
 import React from "react"
 import InfoItem from "./info-item"
 
@@ -6,7 +7,7 @@ export function Header(props) {
     <div class={`flex flex-col w-full ${props.class}`}>
       <div class="flex ml-auto pt-4 pr-4">
         {props.supportedLanguages.map((lang, index) => {
-          const href = lang === 'en' ? '/' : lang
+          const link = lang === 'en' ? '/' : `/${lang}`
           const circleStyle = {
             display: "inline-block",
             height: 4,
@@ -16,9 +17,9 @@ export function Header(props) {
           }
 
           return (
-            <div class="flex items-center">
+            <div class="flex items-center text-gray-100">
               {index > 0 ? <span class="mr-2" style={circleStyle} /> : undefined}
-              <a class="mr-2 text-gray-100" href={href}>{lang.toUpperCase()}</a>
+              <Link style={{ marginRight: 8 }} to={link}>{lang.toUpperCase()}</Link>
             </div>
           )
         })}
