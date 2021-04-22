@@ -13,7 +13,7 @@ export default function InfoItem(props) {
   }
 
   return (
-    <div class={`flex items-center text-2xl ${props.class}`}>
+    <div class={`flex items-center ${props.class}`}>
       <FontAwesomeIcon icon={props.icon} />
       <div class="ml-2">
         {text}

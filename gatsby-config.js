@@ -25,6 +25,18 @@ module.exports = {
           include: /assets/
         }
       }
+    },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Dominik Becaj`,
+        short_name: `Dominik Becaj`,
+        start_url: `/`,
+        background_color: `#663399`,
+        theme_color: `#663399`,
+        display: `minimal-ui`,
+        icon: `src/static/favicon.svg`,
+      }
     }
   ],
 }
