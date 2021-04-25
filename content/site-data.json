@@ -174,7 +174,8 @@
           "Computer network management",
           "Multithreaded programming",
           "Microcontroller programming"
-        ]
+        ],
+        "project": "Thesis: Analysis of RSocket protocol and its use in microservices"
       },
       {
         "startDate": "2018",
@@ -205,7 +206,8 @@
           "Database design and use",
           "Basics in computer networking",
           "Basics in microcontroller design and programming"
-        ]
+        ],
+        "project": "Graduation project: 2D Multiplayer game made in C++ with QT framework"
       }
     ]
   },

@@ -83,6 +83,7 @@ export default function Home({ pageContext }) {
                 gradeAvg={education.gradeAvg}
                 gradeTotal={education.gradeTotal}
                 competencies={education.competencies}
+                project={education.project}
                 class="mb-8 shadow-md p-4 border rounded-md"
               />
             )

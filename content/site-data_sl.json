@@ -174,7 +174,8 @@
           "Upravljanje računalniškega omrežja",
           "Paralelno programiranje",
           "Programiranje vgrajenih sistemov"
-        ]
+        ],
+        "project": "Diplomsko delo: Analiza protokola RSocket in njegova uporaba v mikrostoritvah"
       },
       {
         "startDate": "2018",
@@ -205,7 +206,8 @@
           "Postavitev in uporaba podatkovnih baz",
           "Osnova računalniških omrežji",
           "Osnove programiranja mikrokrmilnikov"
-        ]
+        ],
+        "project": "Zaključna naloga: 2D Omrežna igra narejena v jeziku C++ z ogrodjem QT"
       }
     ]
   },
