@@ -1788,5 +1788,14 @@
     },
     "Oracle": {
         "color": "#f80102"
+    },
+    "PostgreSQL": {
+        "color": "#336791"
+    },
+    "Docker": {
+        "color": "#2497ED"
+    },
+    "Kafka": {
+        "color": "#000000"
     }
 }

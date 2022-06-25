@@ -9,7 +9,7 @@ import { InterestItem } from "../components/interest-item";
 import { SkillDesc } from "../components/skill-desc";
 
 // Load language packs
-import SiteDataEN from "../../content/site-data.json"
+import SiteDataEN from "../../content/site-data_en.json"
 import SiteDataSL from "../../content/site-data_sl.json"
 const supportedLanguages = {
   en: SiteDataEN,

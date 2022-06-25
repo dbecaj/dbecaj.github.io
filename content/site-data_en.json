@@ -1,0 +1,245 @@
+{
+  "name": "Dominik Bečaj",
+  "description": "A resume site for Dominik Bečaj, containing contact information and all professional experiences which may be of interest to a future employer",
+  "userInfos": [
+    {
+      "icon": [
+        "fas",
+        "user"
+      ],
+      "text": "10.08.1998"
+    },
+    {
+      "icon": [
+        "fas",
+        "map-marker-alt"
+      ],
+      "text": "Slovenia, Ljubljana"
+    },
+    {
+      "icon": [
+        "fas",
+        "at"
+      ],
+      "text": "dominik.becaj@gmail.com"
+    },
+    {
+      "icon": [
+        "fab",
+        "github"
+      ],
+      "text": "https://github.com/dbecaj"
+    }
+  ],
+  "references": {
+    "title": "References",
+    "items": [
+      {
+        "startDate": "2021.06",
+        "endDate": "",
+        "companyName": "[Kaldi IT d.o.o.](https://kaldi.si/en/)",
+        "location": "Slovenia, Ljubljana",
+        "position": "Backend developer",
+        "technologies": [
+          "Java",
+          "AWS",
+          "Kafka",
+          "Docker",
+          "PostgreSQL"
+        ],
+        "tasks": [
+          "Developing and maintaining a Quarkus enterprise application",
+          "Using CI/CD workflow",
+          "Maintaining application containers on AWS ECS",
+          "Writing PostgreSQL and MySQL queries",
+          "Utilizing Apache Kafka for event driven architecture"
+        ]
+      },
+      {
+        "startDate": "2020.02",
+        "endDate": "2020.09",
+        "companyName": "[SymphonyEYC d.o.o.](https://www.symphonyretailai.com/)",
+        "location": "Slovenia, Ljubljana",
+        "position": "Backend developer",
+        "technologies": [
+          "Java",
+          "PLSQL",
+          "Linux",
+          "Oracle",
+          "JavaScript",
+          "C"
+        ],
+        "tasks": [
+          "Developing and maintaining a Spring enterprise application",
+          "Writing SQL queries and procedures",
+          "Writing Shell scripts and working with Linux system",
+          "Writing CPro programs for database processing"
+        ]
+      },
+      {
+        "startDate": "2019.06",
+        "endDate": "2019.09",
+        "companyName": "[Proxima d.o.o.](https://proxima.si)",
+        "location": "Slovenia, Ljubljana",
+        "position": "Backend developer",
+        "technologies": [
+          "JavaScript",
+          "NoSQL",
+          "SQL",
+          "AWS",
+          "Linux"
+        ],
+        "tasks": [
+          "Creating REST API backend using NestJS for mobile apps",
+          "Setup and use of Amazon Web Services",
+          "Setup and use of MongoDB and PostgreSQL",
+          "Setting up Linux server"
+        ]
+      },
+      {
+        "startDate": "2016.02",
+        "endDate": "2016.03",
+        "companyName": "[Kolektor Group d.o.o.](https://www.kolektor.com/en)",
+        "location": "Slovenia, Ljubljana",
+        "position": "IT Technician",
+        "technologies": [
+          "Windows",
+          "MS Office"
+        ],
+        "tasks": [
+          "Setting up computers for industrial automation",
+          "QA for established systems",
+          "Writing documentation"
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "title": "Skills",
+    "items": [
+      {
+        "name": "JavaScript",
+        "icon": "js",
+        "experience": "3 years",
+        "text": "I am familiar with the JavaScript language and its superset [TypeScript](https://www.typescriptlang.org/), as I have used them frequently in projects. I like using [ExpressJS](https://expressjs.com/) and [NestJS](https://nestjs.com/) for backend and [React](https://reactjs.org/) for frontend."
+      },
+      {
+        "name": "Database",
+        "icon": "database",
+        "experience": "4 years",
+        "text": "I have theoretical knowledge and experience with creating and using relational SQL databases and non-relational NoSQL databases. So far, I've used [PostgreSQL](https://www.postgresql.org/), [MongoDB](https://www.mongodb.com/) and [Firebase](https://firebase.google.com/)."
+      },
+      {
+        "name": "Java",
+        "icon": "java",
+        "experience": "5 years",
+        "text": "I know how to use modern Java 17 language and its JAX-RS frameworks, such as [Quarkus](https://quarkus.io/) for backend development and [Kotlin](https://kotlinlang.org/) for testing and developing Android applications."
+      },
+      {
+        "name": "C",
+        "icon": "c",
+        "experience": "3 years",
+        "text": "I have used C throughout my years in school on various projects. I have a good understanding of various algorithms and data structures as well as C related concepts, such as memory managment, pointers and the preprocessor."
+      },
+      {
+        "name": "Linux",
+        "icon": "linux",
+        "experience": "2 years",
+        "text": "I use Linux in my spare time because I like to adapt the system to my requirements and because vim themes are very aesthetic 😄. I can write shell scripts, and I can use tools like regexp, sed and vim."
+      },
+      {
+        "name": "Python",
+        "icon": "python",
+        "experience": "3 years",
+        "text": "I like to use Python to write short scripts and for data mining. I am familiar with [NumPy](https://numpy.org/) and [matplotlib](https://matplotlib.org/)."
+      }
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "items": [
+      {
+        "startDate": "2017",
+        "endDate": "2021",
+        "institutionName": "University of Ljubljana",
+        "programName": "Bachelor's degree in computer science",
+        "gradeAvg": "9",
+        "gradeTotal": "10",
+        "competencies": [
+          "Programming in C, Assembly, Python, Java, JavaScript",
+          "Data mining",
+          "Database design and concepts",
+          "Computer vision",
+          "Artificial intelligence",
+          "Basics in robotics (ROS)",
+          "Developing web applications",
+          "Computer network management",
+          "Multithreaded programming",
+          "Microcontroller programming"
+        ],
+        "project": "Thesis: [Analysis of RSocket protocol and its use in microservices](https://repozitorij.uni-lj.si/IzpisGradiva.php?id=125536&lang=eng)"
+      },
+      {
+        "startDate": "2018",
+        "endDate": "2018",
+        "institutionName": "University College Cork",
+        "programName": "Undergraduate Computer Science Degree, second year",
+        "gradeAvg": "10",
+        "gradeTotal": "10",
+        "competencies": [
+          "Programming in C",
+          "Developing web applications",
+          "Network management",
+          "Database design and use",
+          "Distributed systems and microservices"
+        ]
+      },
+      {
+        "startDate": "2013",
+        "endDate": "2017",
+        "institutionName": "Secondary School of Electrical and Computer Engineering Ljubljana",
+        "programName": "Computer Engineer",
+        "gradeAvg": "4",
+        "gradeTotal": "5",
+        "competencies": [
+          "Programming in C++",
+          "Learning QT development environment",
+          "Basics in electrical engineering",
+          "Database design and use",
+          "Basics in computer networking",
+          "Basics in microcontroller design and programming"
+        ],
+        "project": "Graduation project: 2D Multiplayer game made in C++ with QT framework"
+      }
+    ]
+  },
+  "interests": {
+    "title": "Interests",
+    "items": [
+      {
+        "icon": "robot",
+        "text": "Robotics"
+      },
+      {
+        "icon": "eye",
+        "text": "Computer Vision"
+      },
+      {
+        "icon": "brain",
+        "text": "AI"
+      },
+      {
+        "icon": "pizza-slice",
+        "text": "Cooking"
+      },
+      {
+        "icon": "hiking",
+        "text": "Hiking"
+      },
+      {
+        "icon": "bicycle",
+        "text": "Cycling"
+      }
+    ]
+  }
+}

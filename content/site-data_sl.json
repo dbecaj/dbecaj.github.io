@@ -35,9 +35,30 @@
     "title": "Reference",
     "items": [
       {
-        "startDate": "02.2020",
-        "endDate": "09.2020",
-        "companyName": "SymphonyEYC d.o.o.",
+        "startDate": "2021.06",
+        "endDate": "",
+        "companyName": "[Kaldi IT d.o.o.](https://www.kaldi.si/)",
+        "location": "Slovenija, Ljubljana",
+        "position": "Backend developer",
+        "technologies": [
+          "Java",
+          "AWS",
+          "Kafka",
+          "Docker",
+          "PostgreSQL"
+        ],
+        "tasks": [
+          "Razvijanje in razhroščevanje quarkus enterprise aplikacije",
+          "Uporabljanje CI/CD razvojnega procesa",
+          "Upravljanje z aplikacijami na AWS ECS storitvi",
+          "Pisanje PostgreSQL in MySQL poizvedb",
+          "Uporaba Apache Kafka za event driven arhitekturo"
+        ]
+      },
+      {
+        "startDate": "2020.02",
+        "endDate": "2020.09",
+        "companyName": "[SymphonyEYC d.o.o.](https://www.symphonyretailai.com/)",
         "location": "Slovenija, Ljubljana",
         "position": "Backend razvijalec",
         "technologies": [
@@ -52,15 +73,13 @@
           "Razvijanje in razhroščevanje Spring enterprise aplikacije ",
           "Pisanje SQL poizvedb in procedur",
           "Pisanje Shell skript in delo s sistemi Linux",
-          "Razvijanje in razhroščevanje spletne strani",
-          "IT Inženir za PDA skenerje",
           "Pisanje CPro programov za obdelavo podatkov na podatkovni bazi"
         ]
       },
       {
-        "startDate": "06.2019",
-        "endDate": "09.2019",
-        "companyName": "Proxima d.o.o.",
+        "startDate": "2019.06",
+        "endDate": "2019.09",
+        "companyName": "[Proxima d.o.o.](https://proxima.si/)",
         "location": "Slovenija, Ljubljana",
         "position": "Backend razvijalec",
         "technologies": [
@@ -78,26 +97,9 @@
         ]
       },
       {
-        "startDate": "10.2016",
-        "endDate": "11.2016",
-        "companyName": "nSoft Ltd",
-        "location": "Litva, Vilna",
-        "position": "Razvijalec programske opreme",
-        "technologies": [
-          "PHP",
-          "C++",
-          "HTML"
-        ],
-        "tasks": [
-          "Ustvarjanje spletne aplikacije za nadziranje mikrokrmilnikov",
-          "Programiranje mikrokrmilnikov",
-          "Pisanje dokumentacije"
-        ]
-      },
-      {
-        "startDate": "02.2016",
-        "endDate": "03.2016",
-        "companyName": "Kolektor Group d.o.o.",
+        "startDate": "2016.02",
+        "endDate": "2016.03",
+        "companyName": "[Kolektor Group d.o.o.](https://www.kolektor.com/)",
         "location": "Slovenija, Ljubljana",
         "position": "IT Inženir",
         "technologies": [
@@ -143,7 +145,7 @@
         "name": "Linux",
         "icon": "linux",
         "experience": "2 leti",
-        "text": "Linux uporabljam profesionalno in hobijsko, ker mi je všeč prilagajanje sistema mojim zahtevam. Znam pisati shell skripte, od orodji pa znam uporabljati regexp, sed ter vim."
+        "text": "Linux uporabljam, ker mi je všeč prilagajanje sistema mojim zahtevam in ker so vim teme zakon 😄. Znam pisati shell skripte, od orodji pa znam uporabljati regexp, sed ter vim."
       },
       {
         "name": "Python",

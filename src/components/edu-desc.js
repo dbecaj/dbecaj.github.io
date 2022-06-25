@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import React from "react"
+import ReactMarkdown from "react-markdown"
 import { DateItem } from "./date-item"
 
 function Marks(props) {
@@ -12,6 +13,11 @@ function Marks(props) {
 }
 
 export function EduDesc(props) {
+  // Add custom style to html elements for markdown to html conversion 
+  const components = {
+    a: ({node, ...props}) => <a class="text-blue-800 font-bold" {...props} /> 
+  }
+
   return (
     <div class={`${props.class}`}>
 
@@ -47,7 +53,7 @@ export function EduDesc(props) {
 
       { /* Final project */}
       {
-        props.project ? <p>{props.project}</p> : undefined
+        props.project ? <ReactMarkdown components={components} children={props.project} /> : undefined
       }
     </div>
   )
