@@ -5,21 +5,21 @@ import InfoItem from "./info-item"
 export function Header(props) {
   return (
     <div class={`flex flex-col w-full ${props.class}`}>
-      <div class="flex ml-auto pt-4 pr-4">
+      <div class="flex ml-auto mt-4 mr-4 px-1.5 py-1 bg-gray-100 font-bold rounded-lg">
         {props.supportedLanguages.map((lang, index) => {
           const link = lang === 'en' ? '/' : `/${lang}`
           const circleStyle = {
             display: "inline-block",
             height: 4,
             width: 4,
-            backgroundColor: "#bbb",
+            backgroundColor: "#374151",
             borderRadius: "50%"
           }
 
           return (
-            <div class="flex items-center text-gray-100">
-              {index > 0 ? <span class="mr-2" style={circleStyle} /> : undefined}
-              <Link style={{ marginRight: 8 }} to={link}>{lang.toUpperCase()}</Link>
+            <div class="flex items-center text-gray-700">
+              {index > 0 ? <span class="mr-2 ml-2" style={circleStyle} /> : undefined}
+              <Link to={link}>{lang.toUpperCase()}</Link>
             </div>
           )
         })}
