@@ -48,10 +48,9 @@
           "PostgreSQL"
         ],
         "tasks": [
-          "Razvijanje in razhroščevanje quarkus enterprise aplikacije",
-          "Uporabljanje CI/CD razvojnega procesa",
-          "Upravljanje z aplikacijami na AWS ECS storitvi",
-          "Pisanje PostgreSQL in MySQL poizvedb",
+          "Razvijanje enterprise mikrostoritvene aplikacije za transportno podjetje, ki zahteva geolokacijske storitve z pošiljanjem stanja voznikom v realnem času",
+          "Uporabljanje CI/CD razvojnega procesa z avtomatskimi integracijskimi in unit testi za bolj zanesljivo in hitrejše razvijanje",
+          "Zadolžen z upravljanjem in razhroščevanjem aplikacijskih zabojnikov na AWS ECS",
           "Uporaba Apache Kafka za event driven arhitekturo"
         ]
       },
@@ -70,10 +69,10 @@
           "C"
         ],
         "tasks": [
-          "Razvijanje in razhroščevanje Spring enterprise aplikacije ",
-          "Pisanje SQL poizvedb in procedur",
-          "Pisanje Shell skript in delo s sistemi Linux",
-          "Pisanje CPro programov za obdelavo podatkov na podatkovni bazi"
+          "Delo na veliki aplikaciji za planiranje dobavne verige za večje prodajalce po Evropi",
+          "Pisanje poizvedba za analizo podatkov v podatkovnih skladiščih, ki vsebujejo terabajte podatkov",
+          "Uporavljanje z produkcijskim Linux strežnikom z shell skriptami",
+          "Pisanje CPro programov za obdelavo ogromne količine podatkov v podatkovni bazi"
         ]
       },
       {
@@ -90,10 +89,9 @@
           "Linux"
         ],
         "tasks": [
-          "Ustvarjanje REST API backend z ogrodjem NestJS za mobilne aplikacije",
-          "Nastavitev in uporaba Amazon Web Services",
-          "Postavitev in uporaba podatkovnih baz MongoDB in PostgreSQL",
-          "Delo z Linux strežniki"
+          "Razvil REST API aplikacijo za startup, z moderno knjižnico NestJS",
+          "Nastavitev in uporaba Amazon Web Services za postavitev aplikacije in shrambo za datoteke",
+          "Uporaba MongoDB in PostgreSQL za hitri dostop do podatkov"
         ]
       },
       {

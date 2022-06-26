@@ -48,11 +48,10 @@
           "PostgreSQL"
         ],
         "tasks": [
-          "Developing and maintaining a Quarkus enterprise application",
-          "Using CI/CD workflow",
-          "Maintaining application containers on AWS ECS",
-          "Writing PostgreSQL and MySQL queries",
-          "Utilizing Apache Kafka for event driven architecture"
+          "Developing enterprise microservice application for transportation company, requiring geolocation services with live updates to active drivers",
+          "Using CI/CD workflow with automatic integration and unit testing for improved reliability and faster development",
+          "Responsible for maintaining and debugging microservice application containers on AWS ECS with multiple environments",
+          "Implementing Apache Kafka for event driven architecture"
         ]
       },
       {
@@ -70,10 +69,10 @@
           "C"
         ],
         "tasks": [
-          "Developing and maintaining a Spring enterprise application",
-          "Writing SQL queries and procedures",
-          "Writing Shell scripts and working with Linux system",
-          "Writing CPro programs for database processing"
+          "Worked on a large supply chain planning software for major retail stores in Europe",
+          "Writing analytic queries and scripts for data warehouse containing terabytes of data",
+          "Managing a enterprise production linux server with shell scripts",
+          "Creating database script with CPro, capable of processing huge amount of data"
         ]
       },
       {
@@ -90,10 +89,9 @@
           "Linux"
         ],
         "tasks": [
-          "Creating REST API backend using NestJS for mobile apps",
-          "Setup and use of Amazon Web Services",
-          "Setup and use of MongoDB and PostgreSQL",
-          "Setting up Linux server"
+          "Created REST API for a startup application, using modern NestJS framework",
+          "Setup and use of AWS for hosting and storing compressed files",
+          "Used MongoDB and PostgreSQL for fast data storage"
         ]
       },
       {
@@ -101,7 +99,7 @@
         "endDate": "2016.03",
         "companyName": "[Kolektor Group d.o.o.](https://www.kolektor.com/en)",
         "location": "Slovenia, Ljubljana",
-        "position": "IT Technician",
+        "position": "Internship",
         "technologies": [
           "Windows",
           "MS Office"
@@ -133,7 +131,7 @@
         "name": "Java",
         "icon": "java",
         "experience": "5 years",
-        "text": "I know how to use modern Java 17 language and its JAX-RS frameworks, such as [Quarkus](https://quarkus.io/) for backend development and [Kotlin](https://kotlinlang.org/) for testing and developing Android applications."
+        "text": "I know how to use modern Java 17 language and its JAX-RS frameworks, such as [Quarkus](https://quarkus.io/) for backend development, and [Kotlin](https://kotlinlang.org/) for testing and developing Android applications."
       },
       {
         "name": "C",
