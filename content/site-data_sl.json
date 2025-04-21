@@ -48,10 +48,11 @@
           "PostgreSQL"
         ],
         "tasks": [
-          "Razvijanje enterprise mikrostoritvene aplikacije za transportno podjetje, ki zahteva geolokacijske storitve z pošiljanjem stanja voznikom v realnem času",
+          "Razvijanje enterprise mikrostoritvene aplikacije za transportno podjetje, ki zahteva geolokacijske storitve s pošiljanjem stanja voznikom v realnem času",
           "Uporabljanje CI/CD razvojnega procesa z avtomatskimi integracijskimi in unit testi za bolj zanesljivo in hitrejše razvijanje",
           "Zadolžen z upravljanjem in razhroščevanjem aplikacijskih zabojnikov na AWS ECS",
-          "Uporaba Apache Kafka za event driven arhitekturo"
+          "Uporaba Apache Kafka za event driven arhitekturo",
+          "Razvil in skrbel za subscription storitev z več sto mesenčnimi uporabniki"
         ]
       },
       {
@@ -118,19 +119,19 @@
       {
         "name": "JavaScript",
         "icon": "js",
-        "experience": "3 leta",
+        "experience": "5 let",
         "text": "Dobro poznam jezik JavaScript in njegovo nadgradnjo [TypeScript](https://www.typescriptlang.org/), saj sem ju pogosto uporabljal pri projektih. Od večjih ogrodji sem že delal z [ExpressJS](https://expressjs.com/) ter [NestJS](https://nestjs.com/) za backend, zelo rad pa za frontend uporabljam [React](https://reactjs.org/)."
       },
       {
         "name": "Podatkovne baze",
         "icon": "database",
-        "experience": "4 leta",
+        "experience": "6 let",
         "text": "Imam teoretsko znanje in izkušnje z ustvarjanjem in uporabo relacijskih podatkovnih baz SQL in ne-relacijskih NoSQL baz. Do sedaj sem uporabljal [PostgreSQL](https://www.postgresql.org/) za SQL ter [MongoDB](https://www.mongodb.com/) in [Firebase](https://firebase.google.com/) pri NoSQL."
       },
       {
         "name": "Java",
         "icon": "java",
-        "experience": "5 let",
+        "experience": "7 let",
         "text": "Poznam jezik Java in njegova ogrodja, kot so [Spring](https://spring.io/) za backend in [Hibernate](https://hibernate.org/) ORM, ter jezik [Kotlin](https://kotlinlang.org/) za izdelavo Android aplikacij."
       },
       {
@@ -142,13 +143,13 @@
       {
         "name": "Linux",
         "icon": "linux",
-        "experience": "2 leti",
+        "experience": "5 let",
         "text": "Linux uporabljam, ker mi je všeč prilagajanje sistema mojim zahtevam in ker so vim teme zakon 😄. Znam pisati shell skripte, od orodji pa znam uporabljati regexp, sed ter vim."
       },
       {
         "name": "Python",
         "icon": "python",
-        "experience": "3 leta",
+        "experience": "5 let",
         "text": "Za pisanje krajših skript in podatkovnega rudarjenja rad uporabljam Python. Od njegovih knjižnic uporabljam [NumPy](https://numpy.org/) in [matplotlib](https://matplotlib.org/)."
       }
     ]

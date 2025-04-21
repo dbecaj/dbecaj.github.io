@@ -51,7 +51,8 @@
           "Developing enterprise microservice application for transportation company, requiring geolocation services with live updates to active drivers",
           "Using CI/CD workflow with automatic integration and unit testing for improved reliability and faster development",
           "Responsible for maintaining and debugging microservice application containers on AWS ECS with multiple environments",
-          "Implementing Apache Kafka for event driven architecture"
+          "Implementing Apache Kafka for event driven architecture",
+          "Created a scalable subscription service with hunderds monthly customers"
         ]
       },
       {
@@ -118,19 +119,19 @@
       {
         "name": "JavaScript",
         "icon": "js",
-        "experience": "3 years",
+        "experience": "5 years",
         "text": "I am familiar with the JavaScript language and its superset [TypeScript](https://www.typescriptlang.org/), as I have used them frequently in projects. I like using [ExpressJS](https://expressjs.com/) and [NestJS](https://nestjs.com/) for backend and [React](https://reactjs.org/) for frontend."
       },
       {
         "name": "Database",
         "icon": "database",
-        "experience": "4 years",
+        "experience": "6 years",
         "text": "I have theoretical knowledge and experience with creating and using relational SQL databases and non-relational NoSQL databases. So far, I've used [PostgreSQL](https://www.postgresql.org/), [MongoDB](https://www.mongodb.com/) and [Firebase](https://firebase.google.com/)."
       },
       {
         "name": "Java",
         "icon": "java",
-        "experience": "5 years",
+        "experience": "7 years",
         "text": "I know how to use modern Java 17 language and its JAX-RS frameworks, such as [Quarkus](https://quarkus.io/) for backend development, and [Kotlin](https://kotlinlang.org/) for testing and developing Android applications."
       },
       {
@@ -142,13 +143,13 @@
       {
         "name": "Linux",
         "icon": "linux",
-        "experience": "2 years",
+        "experience": "5 years",
         "text": "I use Linux in my spare time because I like to adapt the system to my requirements and because vim themes are very aesthetic 😄. I can write shell scripts, and I can use tools like regexp, sed and vim."
       },
       {
         "name": "Python",
         "icon": "python",
-        "experience": "3 years",
+        "experience": "5 years",
         "text": "I like to use Python to write short scripts and for data mining. I am familiar with [NumPy](https://numpy.org/) and [matplotlib](https://matplotlib.org/)."
       }
     ]
