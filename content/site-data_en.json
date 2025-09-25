@@ -25,10 +25,10 @@
     },
     {
       "icon": [
-        "fab",
-        "github"
+        "fa",
+        "phone-alt"
       ],
-      "text": "https://github.com/dbecaj"
+      "text": "+38631478120"
     }
   ],
   "references": {
@@ -36,7 +36,7 @@
     "items": [
       {
         "startDate": "2021.06",
-        "endDate": "present",
+        "endDate": "2025.09",
         "companyName": "[Kaldi IT d.o.o.](https://kaldi.si/en/)",
         "location": "Slovenia, Ljubljana",
         "position": "Backend developer",
@@ -52,7 +52,7 @@
           "Using CI/CD workflow with automatic integration and unit testing for improved reliability and faster development",
           "Responsible for maintaining and debugging microservice application containers on AWS ECS with multiple environments",
           "Implementing Apache Kafka for event driven architecture",
-          "Created a scalable subscription service with hunderds monthly customers"
+          "Created a scalable subscription service with hunderds monthly customers with over a million in quarterly revenue"
         ]
       },
       {

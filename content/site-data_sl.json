@@ -25,10 +25,10 @@
     },
     {
       "icon": [
-        "fab",
-        "github"
+        "fa",
+        "phone-alt"
       ],
-      "text": "https://github.com/dbecaj"
+      "text": "031478120"
     }
   ],
   "references": {
@@ -36,7 +36,7 @@
     "items": [
       {
         "startDate": "2021.06",
-        "endDate": "trenutno",
+        "endDate": "2025.09",
         "companyName": "[Kaldi IT d.o.o.](https://www.kaldi.si/)",
         "location": "Slovenija, Ljubljana",
         "position": "Backend developer",
@@ -52,7 +52,7 @@
           "Uporabljanje CI/CD razvojnega procesa z avtomatskimi integracijskimi in unit testi za bolj zanesljivo in hitrejše razvijanje",
           "Zadolžen z upravljanjem in razhroščevanjem aplikacijskih zabojnikov na AWS ECS",
           "Uporaba Apache Kafka za event driven arhitekturo",
-          "Razvil in skrbel za subscription storitev z več sto mesenčnimi uporabniki"
+          "Razvil in skrbel za subscription storitev z več sto mesenčnimi uporabniki in z več kot milijonskim dobičkom vsako četrtletje"
         ]
       },
       {
