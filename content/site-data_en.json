@@ -42,6 +42,7 @@
         "position": "Backend developer",
         "technologies": [
           "Java",
+          "Python",
           "AWS",
           "Kafka",
           "Docker",
@@ -132,7 +133,7 @@
         "name": "Java",
         "icon": "java",
         "experience": "7 years",
-        "text": "I know how to use modern Java 17 language and its JAX-RS frameworks, such as [Quarkus](https://quarkus.io/) for backend development, and [Kotlin](https://kotlinlang.org/) for testing and developing Android applications."
+        "text": "I know how to use modern Java 21 language and its JAX-RS frameworks, such as [Quarkus](https://quarkus.io/) for backend development, and [Kotlin](https://kotlinlang.org/) for testing and developing Android applications."
       },
       {
         "name": "C",
@@ -150,7 +151,7 @@
         "name": "Python",
         "icon": "python",
         "experience": "5 years",
-        "text": "I like to use Python to write short scripts and for data mining. I am familiar with [NumPy](https://numpy.org/) and [matplotlib](https://matplotlib.org/)."
+        "text": "I like to use Python to write scripts, data mining, robotics and other applications. I am familiar with the framework [Django](https://www.djangoproject.com/) as well as data mining libraries such as [NumPy](https://numpy.org/) and [matplotlib](https://matplotlib.org/)."
       }
     ]
   },
@@ -225,7 +226,7 @@
       },
       {
         "icon": "brain",
-        "text": "AI"
+        "text": "Machine Learning"
       },
       {
         "icon": "pizza-slice",

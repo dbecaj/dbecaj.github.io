@@ -42,6 +42,7 @@
         "position": "Backend developer",
         "technologies": [
           "Java",
+          "Python",
           "AWS",
           "Kafka",
           "Docker",
@@ -150,7 +151,7 @@
         "name": "Python",
         "icon": "python",
         "experience": "5 let",
-        "text": "Za pisanje krajših skript in podatkovnega rudarjenja rad uporabljam Python. Od njegovih knjižnic uporabljam [NumPy](https://numpy.org/) in [matplotlib](https://matplotlib.org/)."
+        "text": "Za pisanje skript, podatkovnega rudarjenja, robotike in druge aplikacije rad uporabljam Python. Seznanjen sem z ogrodjem [Django](https://www.djangoproject.com/) in z knjižnicami za podatkovno rudarjenje [NumPy](https://numpy.org/) in [matplotlib](https://matplotlib.org/)."
       }
     ]
   },
